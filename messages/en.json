@@ -1,0 +1,1296 @@
+{
+  "ListingGrid": {
+    "heading": "Next journey starts here",
+    "subheading": "Book confidently. Travel freely. Find the perfect car or apartment for your next adventure."
+  },
+  "Navbar": {
+    "Category": {
+      "cars": "Cars",
+      "apartments": "Apartments"
+    },
+    "Actions": {
+      "dashboard": "Admin Dashboard",
+      "login": "Log in",
+      "signup": "Sign Up",
+      "profile": "Profile",
+      "contact": "Contact",
+      "wishlist": "Wishlist",
+      "logout": "Logout"
+    }
+  },
+   "SearchForm": {
+    "location": {
+      "label": "Pickup Location",
+      "placeholder": "Select an option"
+    },
+    "destination": {
+      "label": "Destination",
+      "placeholder": "Select an option"
+    },
+    "dates": {
+      "label": "Rental Dates",
+      "placeholder": "Select Dates"
+    },
+    "apartDates": {
+      "label": "Check-in / Check-out",
+      "placeholder": "Select Dates"
+    },
+    "guests": {
+      "label": "Guests"
+    },
+    "carType": {
+      "label": "Car Type",
+      "placeholder": "Any Type"
+    },
+    "submit": "Search"
+  },
+  "About": {
+    "hero": {
+      "badge": "OUR STORY",
+      "title": "Built for the way people travel today",
+      "description": "RentHub connects travellers with trusted cars and apartments — making every journey simpler, safer, and more memorable."
+    },
+    "stats": {
+      "listings": "Verified Listings",
+      "guests": "Happy Guests",
+      "satisfaction": "Satisfaction Rate",
+      "support": "Customer Support"
+    },
+    "values": {
+      "title": "What we stand for",
+      "verified": {
+        "title": "Verified listings only",
+        "desc": "Every car and apartment on RentHub is manually reviewed before going live. No surprises, no misrepresentation — just honest listings."
+      },
+      "booking": {
+        "title": "Booking in minutes",
+        "desc": "Search, select, and confirm your booking in a few taps. No phone calls, no paperwork — the whole process lives in your pocket."
+      },
+      "support": {
+        "title": "We're here when you need us",
+        "desc": "Our support team is available every day of the week. Whether it's a question before booking or an issue during your stay, we've got you covered."
+      }
+    },
+    "history": {
+      "badge": "HOW WE STARTED",
+      "title": "A platform born from frustration",
+      "para1": "RentHub started with a simple problem — finding a reliable car or apartment rental in Algeria was harder than it needed to be. Scattered listings, no clear pricing, and zero trust signals made the process stressful for everyone.",
+      "para2": "We built RentHub to change that. A single platform where every listing is verified, every price is transparent, and every booking is protected.",
+      "para3": "Today, we serve guests across multiple cities, and we're growing every month. We're proud of what we've built — and we're just getting started."
+    },
+    "cta": {
+      "title": "Ready to find your next rental?",
+      "desc": "Browse cars and apartments — no account needed to explore.",
+      "button": "Browse Rentals"
+    }
+  },
+  "Footer": {
+    "description": "Your trusted platform for car and apartment rentals across Algeria. We connect travelers with quality vehicles and comfortable accommodations for memorable experiences.",
+    "location": "Algiers, Algeria",
+    "company": "Company",
+    "becomeHost": "Become a Host",
+    "copyright": "All rights reserved.",
+    "links": {
+      "about": "About Us",
+      "contact": "Contact Us",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy",
+      "faq": "FAQ",
+      "listApartment": "List Your Apartment",
+      "listCar": "List Your Car"
+    }
+  },
+  "Account": {
+    "title": "My Account",
+    "subtitle": "Manage your bookings and personal information",
+    "sidebar": {
+      "memberSince": "Member since",
+      "verified": "Verified profile",
+      "bookings": "bookings"
+    },
+    "tabs": {
+      "bookings": "My Bookings",
+      "info": "Personal Info"
+    },
+    "bookings": {
+      "empty": "No Booking Found",
+      "viewBtn": "View Details",
+      "cancelBtn": "Cancel"
+    },
+    "info": {
+      "photoLabel": "Profile Photo",
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Email",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "Phone",
+      "saveBtn": "Save Changes"
+    },
+    "messages": {
+      "updating": "Updating Profile...",
+      "success": "Profile updated successfully!",
+      "failed": "Failed to update profile"
+    }
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "description": "Have a question or need assistance? We're here to help. Send us a message and we'll respond as soon as possible.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Select a subject...",
+      "subjects": {
+        "booking": "Booking Issue",
+        "payment": "Payment Problem",
+        "general": "General Inquiry",
+        "partnership": "Partnership"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help...",
+      "submit": "Send Message"
+    },
+    "info": {
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "chatNow": "Chat Now",
+      "hours": "Business Hours",
+      "days": "Monday - Friday",
+      "time": "9:00 AM - 6:00 PM",
+      "quickTitle": "Quick Response",
+      "quickDesc": "We typically respond to all inquiries within 24 hours during business days."
+    },
+    "toasts": {
+      "required": "Please fill in all required fields.",
+      "sending": "Sending your message to RentHub...",
+      "success": "Message sent successfully!",
+      "error": "Failed to send message. Please try again."
+    }
+  },
+  "FAQ": {
+    "badge": "Help Center",
+    "title": "Frequently Asked Questions",
+    "description": "Find quick answers to the most common questions about bookings, payments, cancellations, and more.",
+    "cta": {
+      "title": "Still have questions?",
+      "desc": "Our support team is available every day. We're happy to help.",
+      "contact": "Contact Us",
+      "whatsapp": "WhatsApp Chat"
+    },
+    "items": [
+      {"q": "How do I make a booking on RentHub?", "a": "To make a booking, browse our listings, select your preferred property or car, and follow the booking instructions."},
+      {"q": "Can I book without creating an account?", "a": "No, you need to create an account to book and manage your reservations."},
+      {"q": "How do I know my booking is confirmed?", "a": "You will receive a confirmation email and can view your booking in your account dashboard."},
+      {"q": "Can I book for someone else?", "a": "Yes, you can book for someone else. Please provide their details during the booking process."},
+      {"q": "What payment methods are accepted?", "a": "We accept major credit cards, debit cards, and other secure payment methods."},
+      {"q": "Is my payment information safe?", "a": "Yes, we use industry-standard encryption to protect your payment information."},
+      {"q": "When is my card charged?", "a": "Your card is charged at the time of booking."},
+      {"q": "Will I receive a receipt?", "a": "Yes, a receipt will be sent to your email after payment is processed."},
+      {"q": "How do I cancel a booking?", "a": "Go to your account dashboard, select the booking, and click 'Cancel'."},
+      {"q": "What is the cancellation policy?", "a": "Our cancellation policy varies by listing. Please check the listing details for specifics."},
+      {"q": "How long does a refund take?", "a": "Refunds are processed within 5-7 business days after cancellation."},
+      {"q": "What if the host cancels my booking?", "a": "You will receive a full refund and assistance in finding a new place."},
+      {"q": "What documents do I need to rent a car?", "a": "A valid driver's license and a credit card are required."},
+      {"q": "Is insurance included in the car rental price?", "a": "Insurance details are provided in each car listing. Please review before booking."},
+      {"q": "Can I pick up and drop off at different locations?", "a": "Some listings allow this. Check the listing or contact support for details."},
+      {"q": "What happens if I return the car late?", "a": "Late returns may incur additional charges. Please check the rental agreement."},
+      {"q": "Is check-in always on the listed date?", "a": "Yes, check-in is on the date specified in your booking."},
+      {"q": "Are utilities included in the apartment price?", "a": "Most apartments include utilities. Check the listing for details."},
+      {"q": "What if the apartment doesn't match the listing description?", "a": "Contact support immediately. We will help resolve the issue."},
+      {"q": "Can I extend my stay?", "a": "Yes, you can request an extension through your account dashboard."},
+      {"q": "How do I change my password?", "a": "Go to account settings and select 'Change Password'."},
+      {"q": "Can I delete my account?", "a": "Yes, contact support to request account deletion."},
+      {"q": "How do I update my profile photo?", "a": "Go to your profile and click 'Edit' to upload a new photo."},
+      {"q": "How does RentHub prevent fraud?", "a": "We verify listings and use secure payment systems to protect users."},
+      {"q": "What should I do if I feel unsafe?", "a": "Contact our support team immediately for assistance."}
+    ]
+  },
+  "Privacy": {
+    "badge": "PRIVACY POLICY",
+    "title": "Privacy Policy",
+    "updated": "Last updated: January 1, 2025",
+    "intro": "Your privacy is important to us. This policy explains what data we collect, how we use it, and your rights as a user of RentHub.",
+    "sections": {
+      "s1": {
+        "title": "1. Information We Collect",
+        "content": "We collect information you provide directly (name, email, phone, payment details) and data generated by your use of the platform (search history, booking activity, device info)."
+      },
+      "s2": {
+        "title": "2. How We Use Your Data",
+        "content": "Your data is used to:",
+        "list": [
+          "Process and manage bookings",
+          "Send booking confirmations and reminders",
+          "Improve platform features and performance",
+          "Send marketing communications (with your consent)",
+          "Comply with legal obligations"
+        ]
+      },
+      "s3": {
+        "title": "3. Data Sharing",
+        "content": "We do not sell your personal data. We share data only with:",
+        "list": [
+          "Payment processors (Stripe) for transaction processing",
+          "Hosting service providers for platform infrastructure",
+          "Legal authorities when required by law"
+        ],
+        "note": "We will never sell your personal information to third-party advertisers."
+      },
+      "s4": {
+        "title": "4. Cookies & Tracking",
+        "content": "RentHub uses cookies to maintain session state, remember preferences, and analyze usage. You can manage cookie preferences in your browser settings or via our cookie banner."
+      },
+      "s5": {
+        "title": "5. Data Retention",
+        "content": "We retain your account data for as long as your account is active. Booking records are retained for 5 years for legal and financial compliance."
+      },
+      "s6": {
+        "title": "6. Your Rights",
+        "content": "You have the right to:",
+        "list": [
+          "Access the personal data we hold about you",
+          "Request correction of inaccurate data",
+          "Request deletion of your account and associated data",
+          "Withdraw consent for marketing communications at any time"
+        ]
+      },
+      "s7": {
+        "title": "7. Third-Party Services",
+        "content": "Our platform integrates with Stripe (payments), Google Maps (location display), and WhatsApp (support). These services have their own privacy policies which we encourage you to review."
+      },
+      "s8": {
+        "title": "8. Children's Privacy",
+        "content": "RentHub is not directed at children under 18. We do not knowingly collect data from minors."
+      },
+      "s9": {
+        "title": "9. Security",
+        "content": "We use industry-standard encryption (SSL/TLS) to protect data in transit. Passwords are hashed and never stored in plain text."
+      },
+      "s10": {
+        "title": "10. Changes to This Policy",
+        "content": "We may update this policy periodically. We will notify registered users of significant changes via email."
+      },
+      "s11": {
+        "title": "11. Contact Us",
+        "content": "For privacy-related requests, contact us at: support@renthub.com"
+      }
+    }
+  },
+   "Terms": {
+    "badge": "TERMS OF SERVICE",
+    "title": "Terms of Service",
+    "updated": "Last updated: January 1, 2025 • Effective: January 1, 2025",
+    "intro": "By accessing or using RentHub, you agree to be bound by the following terms and conditions. Please read them carefully before making any bookings or using any features of the platform.",
+    "sections": {
+      "s1": { "title": "Acceptance of Terms", "content": "By accessing RentHub, you confirm that you are at least 18 years of age and agree to these Terms. If you do not agree, you must not use the platform." },
+      "s2": { "title": "Use of the Platform", "content": "RentHub grants you a limited, non-exclusive, non-transferable license to access the platform for personal, non-commercial use. You may not scrape, copy, or reproduce content without written permission." },
+      "s3": { "title": "User Accounts", "content": "You are responsible for maintaining the confidentiality of your account credentials. You agree to notify us immediately of any unauthorized use of your account." },
+      "s4": { "title": "Bookings & Payments", "content": "All bookings are subject to availability confirmation. Payment is processed securely through Stripe. RentHub applies a service fee on each transaction, the rate of which is displayed at checkout.", "note": "Bookings are only confirmed once payment is successfully processed. Pending bookings do not guarantee availability." },
+      "s5": { "title": "Cancellation Policy", "content": "Cancellation terms vary per listing. The applicable policy is displayed on each listing page and at the booking confirmation step. RentHub's service fee is non-refundable unless otherwise stated." },
+      "s6": { "title": "Host Responsibilities", "content": "Hosts (listing managers) are responsible for the accuracy of their listings, the condition of the property or vehicle, and compliance with all local laws and regulations." },
+      "s7": { "title": "Prohibited Conduct", "content": "Users must not:", "list": ["Submit false or misleading information", "Use the platform for any unlawful purpose", "Attempt to circumvent the platform to book directly and avoid fees", "Harass or threaten other users or hosts"] },
+      "s8": { "title": "Intellectual Property", "content": "All content on RentHub, including logos, copy, and design, is the property of RentHub. You may not reproduce or distribute any content without written consent." },
+      "s9": { "title": "Limitation of Liability", "content": "RentHub is a marketplace platform and is not liable for the actions of hosts, the condition of listings, or any damages arising from bookings made through the platform." },
+      "s10": { "title": "Privacy & Data", "content": "Your use of the platform is also governed by our Privacy Policy. By using RentHub, you consent to the collection and use of your data as described therein." },
+      "s11": { "title": "Changes to Terms", "content": "RentHub reserves the right to update these Terms at any time. Continued use of the platform after changes constitutes your acceptance of the updated Terms." },
+      "s12": { "title": "Contact & Disputes", "content": "For any questions regarding these Terms, please contact us at legal@renthub.com. Disputes will be resolved under the laws of Algeria." }
+    }
+  },
+  "Listing": {
+    "loading": "Loading listing details...",
+    "notFound": "Listing not found",
+    "notFoundDesc": "The listing you are looking for doesn't exist or was removed.",
+    "goBack": "Go Back",
+    "saved": "Saved",
+    "save": "Save",
+    "reviews": "reviews",
+    "specTitleCar": "Vehicle Specifications",
+    "specTitleApartment": "Property Details",
+    "description": "Description",
+    "features": "Features & Amenities",
+    "houseRules": "House Rules",
+    "noReviews": "No reviews yet for this listing.",
+    "specs": {
+      "Type": "Type",
+      "Model": "Model",
+      "Year": "Year",
+      "Transmission": "Transmission",
+      "Fuel": "Fuel Type",
+      "Seats": "Seats",
+      "Mileage": "Mileage",
+      "Location": "Location",
+      "Status": "Status"
+    },
+    "loginModal": {
+      "title": "Sign in required",
+      "heading": "Save for your next adventure",
+      "desc": "Create a personal wishlist and save your favorite cars or apartments so you can find them easily later.",
+      "signIn": "Sign In to Continue",
+      "later": "Maybe later"
+    },
+    "toasts": {
+      "updating": "Updating your wishlist...",
+      "success": "Wishlist updated successfully!",
+      "error": "Failed to update wishlist. Please try again."
+    }
+  },
+  "Confirmation": {
+    "infoTitle": "Your information",
+    "paymentTitle": "Payment details",
+    "summaryTitle": "Booking summary",
+    "fields": {
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "pickup": "Pickup Address",
+      "dropoff": "Drop-off Address",
+      "requests": "Special Requests (Optional)",
+      "cardNumber": "Card Number",
+      "cardName": "Cardholder Name",
+      "expiry": "Expiry Date",
+      "cvv": "CVV"
+    },
+    "placeholders": {
+      "name": "Enter your full name",
+      "email": "your@email.com",
+      "phone": "+213 XXX XXX XXX",
+      "pickup": "Enter pickup location",
+      "dropoff": "Enter drop-off location",
+      "requests": "Any special requirements or requests...",
+      "cardName": "Name on card"
+    },
+    "labels": {
+      "pickup": "Pickup",
+      "dropoff": "Drop-off",
+      "checkin": "Check-in",
+      "checkout": "Check-out",
+      "days": "days",
+      "total": "Total",
+      "secureTitle": "Secure Payment",
+      "secureDesc": "Your payment information is encrypted and secure. We partner with Stripe to ensure the highest level of security for all transactions.",
+      "stripeSecure": "Payments secured by Stripe"
+    },
+    "buttons": {
+      "continue": "Confirm & Continue",
+      "pay": "Confirm & Pay"
+    },
+    "toasts": {
+      "required": "Please fill in all required fields.",
+      "processing": "Processing your booking and payment...",
+      "success": "Reservation and Payment Successful.",
+      "error": "Something went wrong while booking and payment."
+    }
+  },
+  "Success": {
+    "title": "Booking Confirmed!",
+    "subtitle": "Your reservation has been successfully confirmed",
+    "refLabel": "Booking Reference",
+    "viewReceipt": "View Receipt",
+    "totalPaid": "Total Paid",
+    "emailSent": "Confirmation email sent!",
+    "emailDesc": "A confirmation email has been sent to {email} with all the booking details and instructions.",
+    "viewBookings": "View My Bookings",
+    "backHome": "Back to Home",
+    "securing": "Securing your reservation...",
+    "notFound": "Booking Not Found",
+    "notFoundDesc": "We couldn't retrieve the details for this booking."
+  },
+  "BookingDetails": {
+    "loading": "Loading details...",
+    "notFound": "Booking not found",
+    "goBack": "Go Back",
+    "bookedOn": "Booked on",
+    "bookingDetails": "Booking Details",
+    "yourStay": "Your Stay",
+    "checkIn": "Start / Check-in",
+    "checkOut": "End / Check-out",
+    "listingDetails": "Listing Details",
+    "policy": "Policy",
+    "policyTitle": "Moderate cancellation policy",
+    "policyDesc": "Free cancellation until 48 hours before check-in. After that, its not refundable.",
+    "refundEligible": "You are eligible for a full refund if cancelled before",
+    "supportTitle": "Support & Files",
+    "contactSupport": "Contact Support",
+    "whatsapp": "WhatsApp Us",
+    "viewReceipt": "View Receipt",
+    "refLabel": "Booking Reference",
+    "totalPaid": "Total paid",
+    "cancelBtn": "Cancel Booking",
+    "contactHost": "Contact Host",
+    "days": "days",
+    "nights": "nights",
+    "daysCount": "Days",
+    "nightsCount": "Nights",
+    "toasts": {
+      "cancelUpcoming": "Only upcoming bookings can be cancelled.",
+      "processing": "Processing cancellation...",
+      "cancelled": "Booking cancelled successfully",
+      "error": "Failed to cancel booking. Please try again.",
+      "receiptError": "Receipt not available yet.",
+      "copied": "Reference copied to clipboard"
+    },
+    "modal": {
+      "title": "Cancel Reservation",
+      "confirm": "Are you sure?",
+      "desc": "Do you really want to cancel your booking for {title}? If you are within 48 hours of the start date, a refund will be processed to your card.",
+      "keep": "No, Keep it",
+      "cancel": "Yes, Cancel",
+      "cancelling": "Cancelling..."
+    },
+    "specs": {
+      "propertyType": "Property Type",
+      "location": "Location",
+      "guests": "Guests",
+      "included": "Included",
+      "vehicleType": "Vehicle Type",
+      "model": "Model",
+      "transmission": "Transmission",
+      "fuelType": "Fuel Type",
+      "seats": "Seats",
+      "mileage": "Mileage"
+    }
+  },
+   "Auth": {
+    "signin": {
+      "title": "Welcome back",
+      "subtitle": "Log in to continue to RentHub",
+      "email": "Email",
+      "password": "Password",
+      "passPlaceholder": "Enter your password",
+      "forgot": "Forgot password?",
+      "loginBtn": "Log In",
+      "noAccount": "Don't have an account?",
+      "signup": "Sign up"
+    },
+    "signup": {
+      "title": "Create your account",
+      "subtitle": "Join RentHub today",
+      "fullName": "Full Name *",
+      "namePlaceholder": "Your full name",
+      "email": "Email *",
+      "password": "Password *",
+      "passPlaceholder": "create password",
+      "confirmPassword": "Confirm Password *",
+      "confirmPlaceholder": "re-type password",
+      "termsPrefix": "I agree to the",
+      "termsLink": "Terms of Service",
+      "and": "and",
+      "privacyLink": "Privacy Policy",
+      "signupBtn": "Sign Up",
+      "haveAccount": "Already have an account?",
+      "login": "Log in"
+    },
+    "common": {
+      "or": "or",
+      "emailPlaceholder": "your@email.com"
+    },
+    "toasts": {
+      "signingIn": "Signing in...",
+      "signingUp": "Signing up...",
+      "loginSuccess": "Logged in successfully!",
+      "loginFailed": "Failed to log in.",
+      "fillRequired": "Please fill in all required fields.",
+      "passMismatch": "Passwords do not match.",
+      "error": "Something went wrong"
+    }
+  },
+  "Review": {
+    "title": "Give a review.",
+    "experienceTitle": "Share your experience.",
+    "describeTitle": "Describe about your experience.",
+    "placeholder": "Start your review...",
+    "charHint": "Reviews need to be at least 85 characters",
+    "submit": "Submit Review",
+    "toasts": {
+      "noListing": "Listing ID not provided",
+      "noBooking": "Booking ID not provided",
+      "selectStar": "Please select a star rating",
+      "tooShort": "Review is too short. Need {count} more characters.",
+      "submitting": "Submitting your review for moderation...",
+      "success": "Review submitted! Admin will approve it shortly.",
+      "error": "Failed to submit review. Please try again."
+    }
+  },
+  "Wishlist": {
+    "title": "Wishlist",
+    "viewBtn": "View Details"
+  },
+  "AdminSidebar": {
+    "groups": {
+      "overview": "OVERVIEW",
+      "listings": "LISTINGS",
+      "bookings": "BOOKINGS",
+      "users": "USERS",
+      "revenue": "REVENUE",
+      "reviews": "REVIEWS",
+      "contact": "CONTACT & INQUIRIES",
+      "notifications": "NOTIFICATIONS",
+      "settings": "SETTINGS"
+    },
+    "items": {
+      "dashboard": "Dashboard",
+      "allListings": "All Listings",
+      "allBookings": "All Bookings",
+      "allUsers": "All Users",
+      "revenueOverview": "Overview",
+      "transactions": "Transactions",
+      "allReviews": "All Reviews",
+      "allMessages": "All Messages",
+      "allNotifications": "All Notifications",
+      "commission": "Commission Settings"
+    }
+  },
+  "AdminHeader": {
+    "roles": {
+      "SUPER_ADMIN": "SUPER ADMIN",
+      "ADMIN": "ADMIN"
+    }
+  },
+  "DashboardOverview": {
+    "loading": "Loading Overview Data...",
+    "topCards": {
+      "revenue": "Total Revenue",
+      "bookings": "Total Bookings",
+      "listings": "Active Listings",
+      "users": "Registered Users"
+    },
+    "revenueChart": {
+      "title": "Revenue Overview",
+      "cars": "Cars Revenue",
+      "apartments": "Apartments Revenue"
+    },
+    "bookingsChart": {
+      "title": "Bookings Split",
+      "cars": "Cars",
+      "apartments": "Apartments",
+      "tooltip": "Bookings"
+    },
+    "recentBookings": {
+      "title": "Recent Bookings",
+      "viewAll": "View All",
+      "ref": "Booking Ref",
+      "user": "User",
+      "listing": "Listing",
+      "category": "Category",
+      "dates": "Dates",
+      "total": "Total",
+      "status": "Status",
+      "actions": "Actions",
+      "view": "View",
+      "viewDetails": "View Details",
+      "totalAmount": "Total Amount"
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "addListing": "Add New Listing",
+      "viewReviews": "View Pending Reviews",
+      "export": "Export Report",
+      "manualBooking": "Create Manual Booking"
+    },
+    "recentRegistrations": {
+      "title": "Recent Registrations",
+      "viewAll": "View All"
+    }
+  },
+  "AdminListings": {
+    "loading": "Loading Listing Data...",
+    "header": {
+      "titleList": "All Listings",
+      "titleAdd": "Add New Listing",
+      "subtitleList": "Manage all cars and apartments listings",
+      "subtitleAdd": "Create a new car or apartment listing",
+      "addBtn": "Add New Listing",
+      "backBtn": "Back"
+    },
+    "filters": {
+      "searchPlaceholder": "Search listings by title or location...",
+      "filterLabel": "Filters:",
+      "allCategories": "All Categories",
+      "car": "Car",
+      "apartment": "Apartment",
+      "allStatuses": "All Statuses",
+      "published": "Published",
+      "archived": "Archived"
+    },
+    "bulk": {
+      "selected": "{count} listing(s) selected",
+      "publishBtn": "Publish Selected",
+      "archiveBtn": "Archive Selected",
+      "deleteBtn": "Delete Selected"
+    },
+    "table": {
+      "thumbnail": "Thumbnail",
+      "title": "Title",
+      "category": "Category",
+      "location": "Location",
+      "price": "Price",
+      "status": "Status",
+      "bookings": "Bookings",
+      "rating": "Rating",
+      "created": "Created",
+      "actions": "Actions",
+      "empty": "No listings match your selection criteria."
+    },
+    "toasts": {
+      "deleted": "{count} listing(s) deleted successfully!",
+      "updatingStatus": "Updating status to {status}...",
+      "statusSuccess": "Listing(s) {status} successfully!",
+      "updateSuccess": "Listing updated successfully!",
+      "errorDelete": "Failed to delete listing(s).",
+      "errorStatus": "Failed to update status.",
+      "errorUpdate": "Update failed",
+      "archived": "listing archived successfully!"
+    },
+    "modals": {
+      "archiveTitle": "Archive Listing",
+      "publishTitle": "Publish Listing",
+      "deleteTitle": "Confirm Delete",
+      "bulkDeleteTitle": "Confirm Bulk Delete",
+      "confirmAction": "Confirm Action",
+      "areYouSure": "Are you sure you want to delete {title}? This cannot be undone.",
+      "bulkAreYouSure": "Are you sure you want to delete {count} selected listing(s)? This action is permanent.",
+      "statusQuestion": "Do you want to change the status of {title} to {status}?",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "deleteNow": "Delete Now",
+      "bulkDeleteBtn": "Delete {count} Items",
+      "yesConfirm": "Yes, Confirm",
+      "updating": "Updating...",
+      "deleting": "Deleting..."
+    }
+  },
+  "AdminBookings": {
+    "loading": "Loading Booking Data...",
+    "header": {
+      "title": "All Bookings",
+      "subtitle": "Manage all platform bookings and reservations",
+      "createBtn": "Create Manual Booking"
+    },
+    "stats": {
+      "active": "Active",
+      "upcoming": "Upcoming",
+      "completed": "Completed",
+      "revenue": "Total Revenue",
+      "commission": "Commission Earned"
+    },
+    "filters": {
+      "searchPlaceholder": "Search reference or user...",
+      "allCategories": "All Categories",
+      "car": "Car",
+      "apartment": "Apartment",
+      "allStatuses": "All Statuses",
+      "allSources": "All Booking Sources",
+      "sources": {
+        "client_side": "Client Side",
+        "phone_call": "Phone Call",
+        "whatsapp": "WhatsApp",
+        "walk_in": "Walk In",
+        "travel_agency": "Travel Agency",
+        "email": "Email"
+      }
+    },
+    "table": {
+      "ref": "Booking Ref",
+      "user": "User",
+      "listing": "Listing",
+      "category": "Category",
+      "dates": "Dates",
+      "total": "Total",
+      "commission": "Commission",
+      "status": "Status",
+      "actions": "Actions",
+      "viewDetails": "View Details",
+      "noResults": "No bookings found matching current filters.",
+      "loadingTable": "Loading bookings data..."
+    },
+    "pagination": {
+      "showing": "Showing {count} of {total} bookings",
+      "prev": "Previous",
+      "next": "Next"
+    }
+  },
+  "AdminUsers": {
+    "title": "All Users",
+    "subtitle": "Manage platform users and their accounts",
+    "refreshing": "Refreshing...",
+    "stats": {
+      "total": "Total Users",
+      "active": "Active Users",
+      "suspended": "Suspended",
+      "revenue": "Total Revenue"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by name or email...",
+      "allRoles": "All Roles",
+      "user": "User",
+      "admin": "Admin"
+    },
+    "table": {
+      "user": "User",
+      "email": "Email",
+      "joinDate": "Join Date",
+      "bookings": "Bookings",
+      "totalSpent": "Total Spent",
+      "lastActive": "Last Active",
+      "status": "Status",
+      "actions": "Actions",
+      "tooltips": {
+        "view": "View Profile",
+        "email": "Send Email",
+        "suspend": "Suspend User"
+      }
+    },
+    "suspendModal": {
+      "title": "Suspend Account",
+      "confirm": "Are you sure?",
+      "desc": "You are about to suspend {name}. The user account will be restricted.",
+      "cancel": "Cancel",
+      "submit": "Yes, Suspend",
+      "loading": "Suspending..."
+    },
+    "contactModal": {
+      "title": "Contact User"
+    },
+    "toasts": {
+      "suspending": "Suspending user account...",
+      "suspendSuccess": "User account suspended successfully!",
+      "suspendError": "Failed to suspend user.",
+      "sendingEmail": "Sending email...",
+      "emailSuccess": "Email sent successfully!",
+      "emailError": "Failed to send email"
+    }
+  },
+  "AdminRevenue": {
+    "title": "Revenue Overview",
+    "subtitle": "Track platform revenue and financial performance",
+    "viewTransactions": "View Transactions",
+    "loading": "Loading Revenue Overview Data...",
+    "kpi": {
+      "total": "Total Revenue (6 months)",
+      "commission": "Commission Earned",
+      "avgValue": "Average Booking Value",
+      "growth": "Monthly Growth"
+    },
+    "trend": {
+      "title": "Revenue Trend",
+      "cars": "Cars",
+      "apartments": "Apartments",
+      "commission": "Commission",
+      "carsRevenue": "Cars Revenue",
+      "apartmentsRevenue": "Apartments Revenue"
+    },
+    "categoryBreakdown": {
+      "title": "Revenue by Category",
+      "cars": "Cars",
+      "apartments": "Apartments",
+      "totalBookings": "Total Bookings",
+      "totalRevenue": "Total Revenue",
+      "commissionEarned": "Commission Earned",
+      "avgPerBooking": "Avg per Booking"
+    }
+  },
+  "AdminTransactions": {
+    "title": "Transactions",
+    "subtitle": "View and manage all platform transactions",
+    "loading": "Loading Transaction Data...",
+    "refreshing": "Refreshing...",
+    "stats": {
+      "total": "Total Processed",
+      "commission": "Commission Earned",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "filters": {
+      "searchPlaceholder": "Search ID, Ref, or User...",
+      "allTypes": "All Types",
+      "online": "Online",
+      "manual": "Manual",
+      "refund": "Refund",
+      "allStatus": "All Status",
+      "paid": "Completed",
+      "pending": "Pending"
+    },
+    "table": {
+      "id": "Transaction ID",
+      "ref": "Booking Ref",
+      "user": "User",
+      "type": "Type",
+      "amount": "Amount",
+      "commission": "Commission",
+      "status": "Status",
+      "date": "Date & Time",
+      "actions": "Actions"
+    }
+  },
+  "AdminReviews": {
+    "title": "All Reviews",
+    "subtitle": "Manage and moderate user reviews",
+    "loading": "Loading Review Data...",
+    "stats": {
+      "total": "Total Reviews",
+      "pending": "Pending Approval",
+      "average": "Average Rating"
+    },
+    "labels": {
+      "reviewFor": "Review for:",
+      "reviewer": "Reviewer",
+      "noPending": "No Pending Reviews Available",
+      "noData": "No Review Data Available"
+    },
+    "buttons": {
+      "contact": "Contact Reviewer",
+      "viewListing": "View Listing",
+      "approve": "Approve",
+      "reject": "Reject"
+    },
+    "modals": {
+      "contactTitle": "Contact User"
+    },
+    "toasts": {
+      "sending": "Sending email...",
+      "success": "Email sent successfully!",
+      "error": "Failed to send email"
+    }
+  },
+  "AdminMessages": {
+    "title": "Contact & Inquiries",
+    "subtitle": "Manage messages and respond to user inquiries",
+    "unreadBadge": "{count} unread",
+    "loading": "Syncing Inbox...",
+    "stats": {
+      "total": "Total Messages",
+      "unread": "Unread",
+      "awaiting": "Awaiting Reply",
+      "resolved": "Resolved Today"
+    },
+    "filters": {
+      "searchPlaceholder": "Search by name, email, or subject...",
+      "allStatus": "All Status",
+      "unread": "Unread",
+      "read": "Read",
+      "replied": "Replied",
+      "resolved": "Resolved"
+    },
+    "table": {
+      "sender": "Sender",
+      "subject": "Subject",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "modal": {
+      "title": "Confirm Delete",
+      "confirm": "Are you sure?",
+      "desc": "You are about to delete this inquiry permanently. This action cannot be undone.",
+      "cancel": "Cancel",
+      "delete": "Yes, Delete",
+      "deleting": "Deleting..."
+    },
+    "toasts": {
+      "deleting": "Deleting message...",
+      "success": "Message deleted successfully",
+      "error": "Failed to delete message"
+    }
+  },
+  "AdminSingleMessage": {
+    "back": "Back to Messages",
+    "received": "Received",
+    "at": "at",
+    "markResolved": "Mark Resolved",
+    "openWhatsApp": "Open WhatsApp Chat",
+    "replyTitle": "Reply to {name}",
+    "replyPlaceholder": "Write your professional response here...",
+    "resolveCheck": "Mark as resolved after replying",
+    "whatsappBtn": "WhatsApp",
+    "emailBtn": "Send Reply via Email",
+    "sending": "Sending...",
+    "senderInfo": "Sender Information",
+    "noPhone": "No phone provided",
+    "registeredUser": "Registered User",
+    "guestUser": "Guest User (No Account)",
+    "viewProfile": "View User Profile",
+    "source": "Source:",
+    "ip": "IP:",
+    "privateNotes": "Private Notes",
+    "notesPlaceholder": "Add internal admin notes...",
+    "saveNote": "Save Private Note",
+    "lastUpdated": "Last Updated",
+    "dangerZone": {
+      "resolved": "Mark as Resolved",
+      "delete": "Delete Inquiry"
+    },
+    "notFound": "Message not found.",
+    "toasts": {
+      "noPhone": "Phone number not available",
+      "emptyReply": "Please write a response first",
+      "sendingReply": "Sending email reply...",
+      "replySuccess": "Reply sent and user notified!",
+      "replyError": "Failed to send reply",
+      "savingNote": "Saving private note...",
+      "noteSuccess": "Note updated",
+      "noteError": "Failed to save note",
+      "updatingStatus": "Updating status...",
+      "statusSuccess": "Inquiry marked as resolved",
+      "statusError": "Failed to update status"
+    }
+  },
+  "AdminNotifications": {
+    "title": "All Notifications",
+    "subtitle": "View and manage platform notifications",
+    "toasts": {
+      "deleting": "Deleting notification...",
+      "success": "Deleted",
+      "error": "Failed to delete"
+    }
+  },
+  "AdminCommission": {
+    "title": "Commission Settings",
+    "subtitle": "Configure commission rates for bookings",
+    "saveBtn": "Save Changes",
+    "fetching": "Fetching Settings...",
+    "toasts": {
+      "updating": "Updating commission settings...",
+      "success": "Settings updated successfully!",
+      "error": "Failed to update settings."
+    },
+    "global": {
+      "title": "Global Commission Rate",
+      "rateLabel": "Default Commission Rate (%)",
+      "rateHint": "Applied to all bookings unless category-specific rates are set",
+      "checkboxTitle": "Use global rate for all categories",
+      "checkboxHint": "Override category-specific commission rates"
+    },
+    "category": {
+      "title": "Category-Specific Rates",
+      "carLabel": "Car Rentals Commission (%)",
+      "carHint": "Commission rate for all car rental bookings",
+      "aptLabel": "Apartment Rentals Commission (%)",
+      "aptHint": "Commission rate for all apartment rental bookings"
+    },
+    "calculator": {
+      "title": "Commission Calculator",
+      "bookingAmount": "Booking Amount",
+      "hostPayout": "Host Payout"
+    }
+  },
+  "AdminAddListing": {
+    "sections": {
+      "basic": "Basic Information",
+      "specsCar": "Car Specifications",
+      "specsApt": "Apartment Details",
+      "photos": "Photos"
+    },
+    "category": {
+      "label": "Category",
+      "car": "Car",
+      "apartment": "Apartment"
+    },
+    "fields": {
+      "title": "Listing Title",
+      "description": "Description",
+      "price": "Base Price per day",
+      "currency": "Currency",
+      "extraCharges": "Extra Charges",
+      "chargeLabel": "Charge Label",
+      "amount": "Amount",
+      "country": "Country",
+      "city": "City",
+      "carType": "Car Type",
+      "model": "Model",
+      "year": "Year",
+      "transmission": "Transmission",
+      "fuel": "Fuel Type",
+      "seats": "Seats",
+      "mileage": "Mileage",
+      "features": "Features",
+      "amenities": "Amenities",
+      "houseRules": "House Rules"
+    },
+    "placeholders": {
+      "titleCar": "e.g. Mercedes-Benz C-Class 2024",
+      "titleApt": "e.g. Modern Studio Near Beach",
+      "desc": "Describe the listing in detail...",
+      "chargeLabel": "e.g. Cleaning Fee",
+      "country": "e.g. Algeria",
+      "city": "e.g. Algiers",
+      "model": "e.g. C-Class",
+      "mileage": "Unlimited or 100km/day",
+      "rules": "e.g. No smoking"
+    },
+    "buttons": {
+      "addMore": "Add More",
+      "addRule": "Add Rule",
+      "publish": "Publish Listing",
+      "publishing": "Publishing...",
+      "cover": "Cover",
+      "browse": "Drag and drop photos or click to browse",
+      "photoLimit": "Up to 20 photos.",
+      "selected": "{count} selected"
+    },
+    "enums": {
+      "any_type": "Any Type",
+      "sedan": "Sedan",
+      "suv": "SUV",
+      "luxury": "Luxury",
+      "van": "Van",
+      "economy": "Economy",
+      "any": "Any",
+      "petrol": "Petrol",
+      "diesel": "Diesel",
+      "electric": "Electric",
+      "hybrid": "Hybrid",
+      "automatic": "Automatic",
+      "manual": "Manual"
+    },
+    "toasts": {
+      "photoLimit": "Maximum 20 photos allowed.",
+      "success": "Listing published successfully!",
+      "error": "Something went wrong.",
+      "valTitle": "Title is required.",
+      "valDesc": "Description is required.",
+      "valPrice": "Base price is required.",
+      "valCountry": "Country is required.",
+      "valCity": "City is required.",
+      "valModel": "Car model is required.",
+      "valYear": "Car year is required.",
+      "valSeats": "Number of seats is required."
+    }
+  },
+  "AdminSingleUser": {
+    "back": "Back to Users",
+    "loading": "Loading Profile...",
+    "header": {
+      "sendMessage": "Send Message",
+      "suspendUser": "Suspend User",
+      "suspended": "Suspended",
+      "notSet": "Not Set",
+      "noPhone": "N/A"
+    },
+    "stats": {
+      "totalBookings": "Total Bookings",
+      "active": "Active",
+      "totalSpent": "Total Spent",
+      "avgRating": "Avg Rating",
+      "reviewsGiven": "Reviews Given",
+      "lastActive": "Last Active"
+    },
+    "tabs": {
+      "bookings": "Bookings ({count})",
+      "reviews": "Reviews ({count})",
+      "viewDetails": "View Details →",
+      "noBookings": "No historical bookings found",
+      "noReviews": "User has not provided any reviews"
+    },
+    "notes": {
+      "title": "Admin Notes",
+      "placeholder": "Add internal notes about this user...",
+      "saveBtn": "Save Notes",
+      "saving": "Saving..."
+    },
+    "accountStatus": {
+      "title": "Account Status",
+      "activeDesc": "This account is fully active and ready for platform usage.",
+      "suspendedDesc": "This account is currently suspended. Access is restricted."
+    },
+    "modals": {
+      "suspendTitle": "Suspend Account",
+      "activateTitle": "Activate Account",
+      "confirm": "Are you sure?",
+      "suspendDesc": "Are you sure you want to suspend {name}? The user will be barred from logins and bookings.",
+      "activateDesc": "Are you sure you want to reactivate {name}? The user will regain full access.",
+      "cancel": "Cancel",
+      "confirmBtn": "Confirm",
+      "processing": "Processing...",
+      "contactTitle": "Contact User"
+    },
+    "toasts": {
+      "savingNotes": "Saving admin notes...",
+      "notesSuccess": "Notes updated successfully",
+      "notesError": "Failed to save notes",
+      "updatingStatus": "Updating account status...",
+      "statusSuccess": "User successfully {action}",
+      "actionSuspended": "suspended",
+      "actionActivated": "activated",
+      "statusError": "Action failed",
+      "sendingEmail": "Sending email to user...",
+      "emailSuccess": "Email sent successfully!",
+      "emailError": "Failed to send email"
+    }
+  },
+  "AdminSingleBooking": {
+    "loading": "Loading Booking Records...",
+    "notFound": "Booking not found.",
+    "header": {
+      "back": "Back to All Bookings",
+      "cancelBtn": "Cancel Booking",
+      "ref": "Reference ID:"
+    },
+    "customer": {
+      "title": "Customer Information",
+      "viewProfile": "View Full Profile",
+      "memberSince": "Member since",
+      "totalBookings": "{count} total bookings",
+      "noPhone": "No Phone Provided",
+      "pickup": "Pickup:"
+    },
+    "listing": {
+      "title": "Listing Information",
+      "viewPublic": "View Public Page",
+      "daysTotal": "{count} Days Total",
+      "nightsTotal": "{count} Nights Total"
+    },
+    "timeline": {
+      "title": "Booking Timeline",
+      "step1": "Booking Created",
+      "desc1": "User created booking via {source}",
+      "step2": "Payment Confirmed",
+      "desc2": "Payment of ${amount} received successfully",
+      "step3": "Booking Status",
+      "desc3": "Reservation is currently {status}",
+      "pending": "Pending"
+    },
+    "notes": {
+      "title": "Internal Admin Notes",
+      "placeholder": "Add internal notes about this booking for other staff members...",
+      "saveBtn": "Save Notes",
+      "saving": "Saving..."
+    },
+    "payment": {
+      "title": "Payment Details",
+      "status": "Status",
+      "method": "Method",
+      "date": "Transaction Date"
+    },
+    "financial": {
+      "title": "Financial Summary",
+      "unit": "unit",
+      "total": "Grand Total",
+      "commission": "Commission Earned",
+      "payout": "Host Payout"
+    },
+    "requests": {
+      "title": "Customer Special Requests",
+      "empty": "No special requests provided for this booking."
+    },
+    "actions": {
+      "title": "Quick Actions",
+      "email": "Email Customer",
+      "contactModal": "Contact Customer",
+      "invoice": "View Invoice",
+      "refund": "Process Refund",
+      "refunded": "Already Refunded"
+    },
+    "modals": {
+      "cancelTitle": "Confirm Cancellation",
+      "cancelHeader": "Admin Overrule",
+      "cancelDesc": "You are about to cancel booking #{ref}. This action is permanent and will notify the customer.",
+      "cancelConfirm": "Yes, Cancel Booking",
+      "refundTitle": "Process Refund",
+      "refundHeader": "Return Funds via Stripe",
+      "refundDesc": "Are you sure you want to refund ${amount} to {name}? This will trigger a transaction through the connected Stripe account.",
+      "refundConfirm": "Confirm Refund",
+      "back": "Back",
+      "cancel": "Cancel",
+      "processing": "Processing..."
+    },
+    "toasts": {
+      "cancelling": "Processing admin cancellation...",
+      "cancelSuccess": "Booking cancelled successfully",
+      "cancelError": "Cancellation failed",
+      "refunding": "Initiating Stripe refund...",
+      "refundSuccess": "Refund processed successfully!",
+      "refundError": "Refund failed",
+      "noteSuccess": "Admin notes saved",
+      "noteError": "Failed to save notes",
+      "emailSuccess": "Email sent successfully to customer!",
+      "emailError": "Failed to send email",
+      "noInvoice": "No Invoice for this booking."
+    }
+  },
+  "AdminManualBooking": {
+    "header": {
+      "back": "Back to Dashboard",
+      "title": "Manual Booking"
+    },
+    "stepper": {
+      "step1": "Select Listing",
+      "step2": "Select User",
+      "step3": "Booking Details",
+      "step4": "Review & Confirm"
+    },
+    "step1": {
+      "placeholder": "Search listing by name, location or ID...",
+      "next": "Next: Select User"
+    },
+    "step2": {
+      "placeholder": "Search user by name or email...",
+      "back": "Back",
+      "next": "Next: Booking Details"
+    },
+    "step3": {
+      "sections": {
+        "dates": "Dates & Duration",
+        "pricing": "Pricing Overrides",
+        "fees": "Additional Fees",
+        "payment": "Payment Details",
+        "source": "Booking Source",
+        "requests": "Special Requests / Notes"
+      },
+      "fields": {
+        "start": "Start Date",
+        "end": "End Date",
+        "base": "Base Price",
+        "comm": "Commission %",
+        "label": "Label",
+        "amount": "Amount",
+        "status": "Payment Status",
+        "method": "Payment Method",
+        "source": "Source",
+        "requestsPlaceholder": "Customer requested specific car color or early pickup..."
+      },
+      "buttons": {
+        "addFee": "Add Fee",
+        "back": "Back",
+        "preview": "Preview Summary"
+      }
+    },
+    "step4": {
+      "title": "Final Confirmation",
+      "days": "days",
+      "summaryLabels": {
+        "payment": "Payment",
+        "status": "Status",
+        "source": "Source",
+        "user": "User"
+      },
+      "email": {
+        "title": "Send automated confirmation email",
+        "desc": "A formal receipt and booking summary will be sent to {email}"
+      },
+      "finalizeBtn": "Confirm & Finalize Booking",
+      "loading": "Creating Booking...",
+      "edit": "Edit Details",
+      "financials": {
+        "title": "Financial Summary",
+        "base": "Base Price",
+        "adminComm": "Admin Comm.",
+        "payout": "Owner Payout"
+      }
+    },
+    "step5": {
+      "success": "Success!",
+      "refLabel": "Booking reference generated",
+      "viewDetails": "View Details",
+      "createAnother": "Create Another"
+    },
+    "toasts": {
+      "calculating": "Calculating summary...",
+      "invalid": "Invalid dates or price overrides.",
+      "saving": "Saving booking to database...",
+      "confirmed": "Manual booking confirmed!",
+      "failed": "Failed to create booking"
+    }
+  }
+}
