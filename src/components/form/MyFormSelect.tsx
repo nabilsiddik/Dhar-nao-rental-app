@@ -33,22 +33,14 @@ const MyFormSelect = ({
   labelClassName,
   selectClassName,
   setSelectedState,
-  upIcon = <FaChevronUp />, // Default Up Icon
-  downIcon = <FaChevronDown />, // Default Down Icon
+  upIcon = <FaChevronUp />,
+  downIcon = <FaChevronDown />,
 }: MyFormSelectProps) => {
   const { control } = useFormContext();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className={cn("relative flex flex-col gap-1 w-full", className)}>
-      {label && (
-        <label
-          htmlFor={name}
-          className={cn("text-base font-normal", labelClassName)}
-        >
-          {label}
-        </label>
-      )}
       <Controller
         name={name}
         control={control}
@@ -66,12 +58,12 @@ const MyFormSelect = ({
                 const newValue = e.target.value;
                 onChange(newValue);
                 if (setSelectedState) setSelectedState(newValue);
-                setIsOpen(false); // Fix: Close dropdown immediately after selection
+                setIsOpen(false);
               }}
               onFocus={() => setIsOpen(true)}
               onBlur={() => setIsOpen(false)}
               className={cn(
-                "w-full  px-4 py-4 bg-gray-100 rounded-full focus:outline-none focus:ring-1 appearance-none",
+                "w-full  px-4 py-4 bg-gray-100 rounded-full focus:outline-none appearance-none",
                 "transition-all ease-in-out ",
                 error ? "border-danger" : "border-gray-600",
                 selectClassName,
@@ -89,15 +81,15 @@ const MyFormSelect = ({
             </select>
 
             {/* Custom Up/Down Icons */}
-            <div className="absolute right-5 top-1/3 transform -translate-y-1/2 text-gray-500 pointer-events-none transition-all">
+            <div className="absolute right-5 top-1/2 transform -translate-y-1/2 text-gray-500 pointer-events-none transition-all">
               {isOpen ? upIcon : downIcon}
             </div>
 
-            <div className="h-4 mb-1">
-              {error && (
-                <small className="text-red-500 text-xs">{error.message}</small>
-              )}
+            {error && 
+              <div className="h-4 mb-1">
+              <small className="text-red-500 text-xs">{error.message}</small>
             </div>
+            }
           </div>
         )}
       />

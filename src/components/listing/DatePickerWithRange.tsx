@@ -99,7 +99,7 @@ export function DatePickerWithRange({
           }}
           className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-red-500 transition-colors z-20"
         >
-          <X className="w-4 h-4" />
+          <X className="w-4 h-4 text-primary" />
         </button>
       )}
     </div>

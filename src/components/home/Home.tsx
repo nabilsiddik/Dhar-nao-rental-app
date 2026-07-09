@@ -28,8 +28,6 @@ const Home = () => {
   const { data: cityData } = useGetUniqueCitiesQuery(undefined);
   const cityList = cityData?.data || [];
 
-  console.log(cityList, "cities");
-
   const updateQuery = (name: string, value: string) => {
     const params = new URLSearchParams(searchParams.toString());
     if (value) params.set(name, value);
@@ -126,9 +124,9 @@ const Home = () => {
         <MyFormWrapper
           onSubmit={handleSearch}
           defaultValues={initialValues}
-          className="max-w-6xl mx-auto bg-white shadow-xl shadow-gray-200/50 md:rounded-full rounded-3xl p-4 md:pl-10 md:pr-4 flex flex-col md:flex-row items-center gap-4 border border-primary"
+          className="max-w-6xl mx-auto bg-white shadow-xl shadow-gray-200/50 md:rounded-full rounded-3xl flex flex-col md:flex-row items-center gap-4 border border-primary px-5 py-3"
         >
-          <div className="relative flex items-center gap-2 flex-1 w-full border-b md:border-b-0 md:border-r border-gray-100 pr-4 mt-3">
+          <div className="relative flex items-center gap-2 flex-1 w-full border-b md:border-b-0 md:border-r border-gray-100 pr-4">
             <MyFormSelect
               name="city"
               placeholder={t("location.placeholder")}
@@ -147,16 +145,13 @@ const Home = () => {
                 onClick={() => updateQuery("city", "")}
                 className=" z-10 text-gray-400 hover:text-red-500 transition-colors"
               >
-                <X className="w-4 h-4 cursor-pointer" />
+                <X className="w-4 h-4 cursor-pointer text-primary" />
               </button>
             )}
           </div>
 
           {/* Date Range */}
           <div className="flex-1 w-full border-b md:border-b-0 md:border-r border-gray-100 pr-4">
-            <label className="mb-1 block">
-              {category === "CAR" ? t("dates.label") : t("apartDates.label")}
-            </label>
             <DatePickerWithRange
               placeholder={t("dates.label")}
               onDateChange={handleDateChange}
@@ -165,10 +160,11 @@ const Home = () => {
           </div>
 
           {/* Category Specific Field */}
-          <div className="flex-1 w-full pr-4 mt-3">
+          <div className="flex-1 w-full pr-4">
             {category === "CAR" ? (
-              <div className="relative flex items-center gap-2 flex-1 w-full border-b md:border-b-0 md:border-r border-gray-100 pr-4 mt-3">
-                <MyFormSelect
+              <div className="relative flex items-center gap-2 flex-1 w-full border-b md:border-b-0 md:border-r border-gray-100 pr-4">
+                <div className="block w-full">
+                  <MyFormSelect
                   name="cartType"
                   placeholder={t("carType.placeholder")}
                   label={t("carType.label")}
@@ -177,6 +173,7 @@ const Home = () => {
                     updateQuery("cartType", val.toString())
                   }
                 />
+                </div>
 
                 {searchParams.get("cartType") && (
                   <button
@@ -184,7 +181,7 @@ const Home = () => {
                     onClick={() => updateQuery("cartType", "")}
                     className=" z-10 text-gray-400 hover:text-red-500 transition-colors"
                   >
-                    <X className="w-4 h-4 cursor-pointer" />
+                    <X className="w-4 h-4 cursor-pointer text-primary" />
                   </button>
                 )}
               </div>
@@ -204,7 +201,7 @@ const Home = () => {
           {/* Search Button */}
           <button
             type="submit"
-            className="bg-primary text-white h-14 md:h-16 px-10 rounded-full flex items-center justify-center gap-2 font-bold hover:opacity-90 transition-all w-full md:w-auto shadow-lg shadow-primary/30 mt-3"
+            className="bg-primary text-white h-14 md:h-16 px-10 rounded-full flex items-center justify-center gap-2 font-bold hover:opacity-90 transition-all w-full md:w-auto shadow-lg shadow-primary/30"
           >
             <IoSearch size={22} />
             <span className="md:hidden lg:inline">Search</span>
@@ -212,7 +209,7 @@ const Home = () => {
         </MyFormWrapper>
       </div>
 
-      <div className="max-w-7xl mx-auto py-10 px-4">
+      <div className="w-full mx-auto py-10 lg:px-20 px-4">
         <ListingGrid startDate={startDate} guests={guests} />
       </div>
 
