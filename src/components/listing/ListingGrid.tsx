@@ -70,12 +70,11 @@ const dummyData = [
   if (isError) return <div>Error fetching listings.</div>;
 
   const listings = data?.data || [];
-  console.log(listings, 'djfkdf');
 
   return (
-    <section className="px-4 mx-auto">
+    <section className="max-w-7xl px-4 mx-auto">
       {/* Header */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-6 gap-x-5 gap-y-12">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-4 gap-x-5 gap-y-12">
           {listings?.length > 0 && listings?.map((listing: any) => (
             <ListingCard key={listing?.id} listing={listing} />
           ))}

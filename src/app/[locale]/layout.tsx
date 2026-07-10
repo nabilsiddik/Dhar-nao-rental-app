@@ -24,7 +24,7 @@ type Props = {
 
 export const metadata: Metadata = {
   title: {
-    default: "RentHub | Premium Car & Apartment Rentals",
+    default: "Dhar Nao | Premium Car & Apartment Rentals",
     template: "%s | RentHub",
   },
   description:

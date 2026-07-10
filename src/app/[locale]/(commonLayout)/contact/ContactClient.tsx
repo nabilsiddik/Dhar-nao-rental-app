@@ -397,9 +397,9 @@ const ContactClient = () => {
                   {t("info.whatsapp")}
                 </h4>
                 <p className="text-gray-500 text-sm font-medium mb-4" dir="ltr">
-                  +213 555 123 456
+                  +8801957282230
                 </p>
-                <Link target="_blank" href={"https://wa.me/213555123456"}>
+                <Link target="_blank" href={"https://wa.me/+8801957282230"}>
                   <button className="bg-[#25D366] text-white px-6 py-2.5 rounded-full font-bold text-sm hover:opacity-90 transition-opacity cursor-pointer">
                     {t("info.chatNow")}
                   </button>

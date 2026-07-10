@@ -150,21 +150,6 @@ const ListingCard = ({listing}: {
             {listing?.category}
           </div>
         )}
-{/* 
-        {true && (
-          <div className="absolute top-3 right-3 bg-[#f97316] text-white text-[10px] font-bold px-2.5 py-1 rounded shadow-md uppercase z-20">
-            Verified
-          </div>
-        )} */}
-
-        {/* <div className="absolute bottom-3 left-3 z-20">
-          <img src={hostImage} alt="Host" className="w-10 h-10 rounded-full border-2 border-white object-cover shadow-xl" />
-        </div> */}
-
-        <button className="absolute bottom-3 right-3 text-white/50 hover:text-red-500 transition-colors z-20">
-          <Heart size={24} fill="currentColor" className="stroke-white stroke-[1.5]" />
-        </button>
-
         <style jsx global>{`
           .swiper-pagination-bullet { background: white !important; opacity: 0.6; }
           .swiper-pagination-bullet-active { opacity: 1; }
@@ -213,8 +198,8 @@ const ListingCard = ({listing}: {
         </p> */}
 
         <div className="mt-auto">
-          <span className="text-[#f97316] font-extrabold text-lg">€ {listing?.basePrice}</span>
-          <span className="text-slate-500 text-sm font-medium">/night</span>
+          <span className="text-[#f97316] font-extrabold text-lg">${listing?.basePrice}</span>
+          <span className="text-slate-500 text-sm font-medium"> /{listing?.category === 'CAR' ? 'day' : 'night'}</span>
         </div>
       </div>
     </div>

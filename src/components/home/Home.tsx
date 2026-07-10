@@ -13,6 +13,9 @@ import { DateRange } from "react-day-picker";
 import { useGetUniqueCitiesQuery } from "@/redux/features/listingApis/listingApis";
 import { X } from "lucide-react";
 import { useTranslations, useLocale } from "next-intl";
+import CategorySection from "../sections/CategorySection";
+import HowItWorks from "../sections/HowItworksSection";
+import BecomeHostCTA from "../sections/BecomeHostSection";
 
 const WHATSAPP_NUMBER = "01957282230";
 
@@ -209,9 +212,15 @@ const Home = () => {
         </MyFormWrapper>
       </div>
 
+      <div className="max-w-7xl mx-auto flex items-center justify-center">
+        <CategorySection/>
+      </div>
+
       <div className="w-full mx-auto py-10 lg:px-20 px-4">
         <ListingGrid startDate={startDate} guests={guests} />
       </div>
+
+      <HowItWorks/>
 
       {/* WhatsApp Floating Button */}
       <a
