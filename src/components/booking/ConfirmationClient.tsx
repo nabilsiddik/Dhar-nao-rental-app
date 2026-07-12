@@ -697,11 +697,13 @@ const ConfirmationClient = ({ listingId }: { listingId: string }) => {
 
     try {
       const res = await reserveAndPay(paymentData).unwrap();
+      console.log(res, 'final res');
       if (res?.success) {
         toast.success(t("toasts.success"), { id: toastId });
         router.push(`/booking/success?bookingId=${res?.data?.id}`);
       }
     } catch (error) {
+      console.log(error, 'final err')
       toast.error(t("toasts.error"), { id: toastId });
     }
   };

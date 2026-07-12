@@ -431,7 +431,7 @@ const SuccessClient = () => {
 
       <div className="flex flex-col md:flex-row gap-4">
         <Link
-          href="/account"
+          href="/profile"
           className="flex-1 bg-primary text-white py-5 rounded-[2rem] font-black flex items-center justify-center gap-3 hover:opacity-90 transition-all shadow-xl shadow-primary/20"
         >
           <List size={20} /> {t("viewBookings")}
