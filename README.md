@@ -93,6 +93,7 @@ The platform is developed for a global audience, featuring full multilangual wit
 
 
 ## Frontend Folder Structure
+```text
 src/
 ├── app/
 │   └── [locale]/               # i18n Route Root (en, fr, ar)
