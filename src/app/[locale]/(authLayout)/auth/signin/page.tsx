@@ -50,6 +50,36 @@ export default function SignInPage() {
     }
   };
 
+  // Demo admin login
+  const handleDemoLogin = async () => {
+    const email = 'demoadmin@gmail.com'
+    const password = '12345678'
+
+    const toastId = toast.loading(t("toasts.signingIn"));
+    try {
+      const res = await userLogin({email, password}).unwrap();
+      const user = res?.data;
+      if (res?.success) {
+        const token = res?.data?.token;
+        dispatch(setUser({ user, token }));
+        setAuthToken(token);
+        toast.success(t("toasts.loginSuccess"), { id: toastId });
+        if (user?.role === "ADMIN") {
+          window.location.href = `/${locale}/admin/dashboard/overview`;
+        } else {
+          window.location.href = `/${locale}`;
+        }
+      } else {
+        toast.error(res?.message || t("toasts.loginFailed"), {
+          id: toastId,
+        });
+      }
+    } catch (error: any) {
+      const errorMsg = error?.data?.message || t("toasts.error");
+      toast.error(errorMsg, { id: toastId });
+    }
+  };
+
   return (
     <div
       className="min-h-screen flex items-center justify-center bg-[#fafbfc]"
@@ -86,6 +116,13 @@ export default function SignInPage() {
             className="w-full bg-primary hover:bg-primary text-white rounded-full py-3 font-semibold cursor-pointer"
           >
             {t("signin.loginBtn")}
+          </Button>
+          <Button
+            onClick={handleDemoLogin}
+            disabled={isLoading}
+            className="w-full bg-primary hover:bg-primary text-white rounded-full py-3 font-semibold cursor-pointer"
+          >
+            Demo Login
           </Button>
         </MyFormWrapper>
         <div className="flex items-center w-full my-4">
