@@ -25,7 +25,7 @@ type Props = {
 export const metadata: Metadata = {
   title: {
     default: "Dhar Nao | Premium Car & Apartment Rentals",
-    template: "%s | RentHub",
+    template: "%s | Dhar Nao",
   },
   description:
     "Find the perfect car or apartment for your next adventure in Algeria.",
@@ -33,15 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://renthub.com",
-    siteName: "RentHub",
-    images: [
-      {
-        url: "/home.png",
-        width: 1200,
-        height: 630,
-      },
-    ],
+    siteName: "Dhar Nao",
   },
 };
 export default async function RootLayout({

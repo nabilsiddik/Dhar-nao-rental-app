@@ -24,7 +24,7 @@ const CategorySection = () => {
     const categories = [
         {
             name: 'All',
-            icon: '/apartment.png',
+            icon: '/list.png',
             value: 'ALL'
         },
         {
